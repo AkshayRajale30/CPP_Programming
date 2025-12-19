@@ -3,10 +3,12 @@ using namespace std;
 
 void Dislpay()
 {
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
+    int iCnt = 0;    // Auto storage class
+
+    cout<<"Jay Ganesh..."<<iCnt<<"\n";
+    iCnt++;
+
+    Dislpay();
 }
 
 int main()

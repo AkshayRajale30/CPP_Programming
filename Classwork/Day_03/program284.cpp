@@ -3,10 +3,8 @@ using namespace std;
 
 void Dislpay()
 {
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
+  cout<<"Jay Ganesh...\n";
+  Dislpay();
 }
 
 int main()

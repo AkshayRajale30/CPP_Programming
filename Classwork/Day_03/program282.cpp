@@ -3,10 +3,12 @@ using namespace std;
 
 void Dislpay()
 {
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
-    cout<<"Jay Ganesh...\n";
+    int iCnt = 0;
+
+    for(iCnt = 0; iCnt <= 4; iCnt++)
+    {
+        cout<<"Jay Ganesh...\n";
+    }
 }
 
 int main()
