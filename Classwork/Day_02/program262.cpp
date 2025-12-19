@@ -2,9 +2,11 @@
 
 using namespace std;
 
-int Add (int No1, int No2)
+template <class T>
+
+T Add (T No1, T No2)
 {
-    int Ans;
+    T Ans;
     Ans = No1 + No2;
     return Ans;
 
